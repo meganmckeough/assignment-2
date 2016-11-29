@@ -1,0 +1,14 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+
+}
+
+section ul li {
+	display: inline-block;
+	font-size: 40px;
+	padding: 20px;
+	text-align: center;
+}
