@@ -1,14 +1,126 @@
 body {
 	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	margin: 0px;
+}
+
+
+header {
+	text-align: center;
+	background-image: url("images/header_bg.jpg");
+	padding: 100px 100px 300px 100px;
+	color: white;
+	margin: 0px;
+	font-size: 24px;
+}
+
+nav {
+	font-size: 24px;
+	font-weight: 800;
+	text-align: left;
+}
+
+h1 {
+	font-weight: 600;
+	padding: 50px 25px;
+}
+
+.company_info {
+	background-color: #121212;
+	margin: 0px;
+}
+
+.company_info h1 {
+	color: #f9e42e;
+	font-size: 24px;
+	font-weight: 800;
+	margin: 0px;
+}
+
+ul.social {
+	font-size: 40px;
+	color: white;
+	padding: 0px;
+}
+
+ul.social li {
+	display: inline-block;
+	padding: 10px;
 }
 
 footer {
-
-}
-
-section ul li {
-	display: inline-block;
-	font-size: 40px;
+	font-size: 9px;
+	font-weight: 600;
+	color: white;
+	background-color: #121212;
 	padding: 20px;
-	text-align: center;
 }
+
+
+.benefits {
+	font-weight: 100;
+	font-size: 13px;
+	background-color: #f0efef;
+	text-align: left;
+	padding: 100px 150px 100px 50px;
+	color: #606161;
+}
+
+.benefits h2 {
+	color: #033048;
+	font-weight: 600px;
+	font-size: 20px;
+	padding-bottom: 10px;
+}
+
+.benefits ul {
+	margin: 0px;
+	padding: 30px 40px;
+}
+
+.testimony {
+	background-image: url("images/testimonial_bg.jpg")
+}
+
+.testimony blockquote {
+	color: white;
+	font-style: italic;
+	font-weight: 100;
+	font-size: 18px;
+	margin: 0px;
+	padding: 100px 250px;
+}
+
+.testimony em {
+	font-weight: 600;
+	font-style: normal;
+}
+
+.mail {
+	background-color: #f9e42e;
+	padding: 20px;
+}
+
+
+button {
+	font-weight: 800;
+	padding: 10px 50px;
+	border-radius: 5px;
+}
+
+button.get_it_now {
+	font-size: 14px;
+	background-color: #f9e42e;
+	border-color: #f9e42e;
+	color: #033048;
+	font-weight: 900;
+}
+
+button.sign_up {
+	font-size: 12px;
+	background-color: #033048;
+	border-color: #033048;
+	color: white;
+}
+
+
