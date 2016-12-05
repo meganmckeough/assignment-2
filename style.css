@@ -35,12 +35,13 @@ h1 {
 	font-size: 24px;
 	font-weight: 800;
 	margin: 0px;
+	padding: 40px;
 }
 
 ul.social {
 	font-size: 40px;
 	color: white;
-	padding: 0px;
+	padding: 5px;
 }
 
 ul.social li {
@@ -53,12 +54,12 @@ footer {
 	font-weight: 600;
 	color: white;
 	background-color: #121212;
-	padding: 20px;
+	padding: 30px;
 }
 
 
 .benefits {
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 13px;
 	background-color: #f0efef;
 	text-align: left;
@@ -68,27 +69,37 @@ footer {
 
 .benefits h2 {
 	color: #033048;
-	font-weight: 600px;
+	font-weight: 600;
 	font-size: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 .benefits ul {
 	margin: 0px;
-	padding: 30px 40px;
+	padding: 30px 40px 20px;
+}
+
+.benefits ul li {
+	padding: 5px;
 }
 
 .testimony {
-	background-image: url("images/testimonial_bg.jpg")
+	background-image: url("images/testimonial_bg.jpg");
+	color: white;
+	font-size: 18px;
+	text-align: center;
 }
 
 .testimony blockquote {
-	color: white;
 	font-style: italic;
-	font-weight: 100;
-	font-size: 18px;
+	font-weight: 300;
 	margin: 0px;
-	padding: 100px 250px;
+	padding: 100px 400px;
+	line-height: 1.5;
+}
+
+.testimony p {
+	text-align: justify;
 }
 
 .testimony em {
@@ -113,7 +124,7 @@ button.get_it_now {
 	background-color: #f9e42e;
 	border-color: #f9e42e;
 	color: #033048;
-	font-weight: 900;
+	font-weight: 800;
 }
 
 button.sign_up {
