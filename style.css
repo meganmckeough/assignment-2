@@ -8,7 +8,8 @@ body {
 header {
 	text-align: center;
 	background-image: url("images/header_bg.jpg");
-	padding: 100px 100px 300px 100px;
+	background-size: cover;
+	padding: 20px 100px 300px 100px;
 	color: white;
 	margin: 0px;
 	font-size: 24px;
@@ -22,7 +23,7 @@ nav {
 
 h1 {
 	font-weight: 600;
-	padding: 50px 25px;
+	padding: 100px 25px;
 }
 
 .company_info {
