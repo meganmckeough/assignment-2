@@ -4,24 +4,55 @@ body {
 	margin: 0px;
 }
 
-
 header {
-	text-align: center;
-	background-image: url("images/header_bg.jpg");
-	background-size: cover;
 	padding: 20px 100px 300px 100px;
 	color: white;
 	margin: 0px;
 	font-size: 24px;
 }
 
-nav {
+nav.logo {
 	font-size: 24px;
 	font-weight: 800;
 	text-align: left;
+	color: white;
 }
 
-h1 {
+header.image_style {
+	text-align: center;
+	background-image: url("images/header_bg.jpg");
+	background-size: cover;
+}
+
+
+header.blog_style {
+	background-color: #033048;
+	padding: 10px 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	font-size: 18px;
+}
+
+
+header.blog_style nav.links ul {	
+	display: flex;
+	justify-content: space-between;
+	justify-content: flex-end;
+	color: #f9e42e;
+}
+
+header.blog_style li {
+	padding: 20px;
+}
+
+button {
+	font-weight: 800;
+	padding: 10px 50px;
+	border-radius: 5px;
+}
+
+.image_style h1 {
 	font-weight: 600;
 	padding: 100px 25px;
 }
@@ -37,25 +68,6 @@ h1 {
 	font-weight: 800;
 	margin: 0px;
 	padding: 40px;
-}
-
-ul.social {
-	font-size: 40px;
-	color: white;
-	padding: 5px;
-}
-
-ul.social li {
-	display: inline-block;
-	padding: 10px;
-}
-
-footer {
-	font-size: 9px;
-	font-weight: 600;
-	color: white;
-	background-color: #121212;
-	padding: 30px;
 }
 
 
@@ -108,16 +120,26 @@ footer {
 	font-style: normal;
 }
 
-.mail {
-	background-color: #f9e42e;
-	padding: 20px;
+section.feature_section {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
 }
 
+main.blog_posts {
+	display: flex;
+	width: 700px;
+	flex-wrap: wrap;
+}
 
-button {
-	font-weight: 800;
-	padding: 10px 50px;
-	border-radius: 5px;
+.post {
+	border-bottom: 1px black solid;
+}
+
+aside {
+	display: flex;
+	flex-wrap: wrap;
+	width: 240px;
 }
 
 button.get_it_now {
@@ -135,4 +157,27 @@ button.sign_up {
 	color: white;
 }
 
+.mail {
+	background-color: #f9e42e;
+	padding: 20px;
+}
 
+
+ul.social {
+	font-size: 40px;
+	color: white;
+	padding: 5px;
+}
+
+ul.social li {
+	display: inline-block;
+	padding: 10px;
+}
+
+footer {
+	font-size: 9px;
+	font-weight: 600;
+	color: white;
+	background-color: #121212;
+	padding: 30px;
+}
