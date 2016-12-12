@@ -11,6 +11,7 @@ header {
 	font-size: 24px;
 }
 
+
 nav.logo {
 	font-size: 24px;
 	font-weight: 800;
@@ -40,6 +41,20 @@ header.blog_style nav.links ul {
 	justify-content: space-between;
 	justify-content: flex-end;
 	color: #f9e42e;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+header.blog_style a {
+	color: #f9e42e;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+header a:hover {
+	background-color: #f9e42e;
+	color: #033048;
 }
 
 header.blog_style li {
@@ -122,24 +137,105 @@ button {
 
 section.feature_section {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	padding: 50px;
+	background-color: #f0efef;
+	color: #033048;
+	text-align: left;
+}
+
+section.feature_section a {
+	text-decoration: none;
+}
+
+section.feature_section a:hover {
+	background-color: #033048;
+	color: white;
 }
 
 main.blog_posts {
 	display: flex;
 	width: 700px;
 	flex-wrap: wrap;
+	margin-right: 20px;
+	align-content: center;
 }
 
 .post {
+	padding-bottom: 30px;
 	border-bottom: 1px black solid;
+}
+
+.post img {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.post h2 {
+	font-size: 24px;
+	font-weight: 600;
+	padding-top: 30px;
+}
+
+.post p {
+	color: #606161;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.5;
+	padding-bottom: 60px;
+}
+
+.first_character {
+	float: left; 
+	font-size: 75px;
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px; 
+}
+
+.post a {
+	font-weight: 600;
+	font-size: 16px;
+	text-align: right;
+	float: right;
+	color: #033048;
 }
 
 aside {
 	display: flex;
 	flex-wrap: wrap;
+	align-content: flex-start;
 	width: 240px;
+	font-weight: 300;
+	line-height: 1.25;
+}
+
+aside h3 {
+	font-size: 24px;
+	font-weight: 800;
+	padding-bottom: 20px;
+}
+
+aside .categories {
+	font-size: 18px;
+	line-height: 1.5;
+	padding-bottom: 50px;
+}
+
+aside .about {
+	font-size: 16px;
+	padding-bottom: 50px;
+}
+
+aside img {
+	padding-bottom: 50px;
+}
+
+aside .about a {
+	font-weight: 800;
+	color: #033048;
+	text-decoration: none;
 }
 
 button.get_it_now {
@@ -181,3 +277,4 @@ footer {
 	background-color: #121212;
 	padding: 30px;
 }
+
