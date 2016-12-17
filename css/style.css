@@ -21,7 +21,7 @@ nav.logo {
 
 header.image_style {
 	text-align: center;
-	background-image: url("images/header_bg.jpg");
+	background-image: url("../landingPage/images/header_bg.jpg");
 	background-size: cover;
 }
 
@@ -112,7 +112,7 @@ button {
 }
 
 .testimony {
-	background-image: url("images/testimonial_bg.jpg");
+	background-image: url("../landingPage/images/testimonial_bg.jpg");
 	color: white;
 	font-size: 18px;
 	text-align: center;
@@ -202,6 +202,11 @@ main.blog_posts {
 	color: #033048;
 }
 
+.expand {
+	display: none;
+}
+
+
 aside {
 	display: flex;
 	flex-wrap: wrap;
@@ -226,6 +231,10 @@ aside .categories {
 aside .about {
 	font-size: 16px;
 	padding-bottom: 50px;
+}
+
+.hidden {
+	display: none;
 }
 
 aside img {
