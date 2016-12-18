@@ -7,44 +7,79 @@ $("a").click(function(event){
    event.preventDefault();
 });
 
+
 $(".blogReadLess").hide();
 
 $("#learn").click(aboutSidebar);
-$(".blogReadMore").click(expandPost);
-$(".blogReadLess").click(collapsePost);
-
 function aboutSidebar () {
 	$(".about span").removeClass("hidden").slideDown("slow");
 	$("#learn").hide();
 }
 
-function expandPost () {
-	$(".expand").removeClass("morePost").slideDown("slow");
+
+$("#post1 .blogReadMore").click(expandPost1);
+$("#post2 .blogReadMore").click(expandPost2);
+$("#post1 .blogReadLess").click(collapsePost1);
+$("#post2 .blogReadLess").click(collapsePost2);
+
+
+function expandPost1 () {
+	$("#post1 .expand").removeClass("morePost").slideDown("slow");
 	
-	var collapsedPost = $(".expand").hasClass("morePost");
+	var collapsedPost = $("#post1 .expand").hasClass("morePost");
 	if (collapsedPost == true) {
-		$(".blogReadLess").hide();
-		$(".blogReadMore").show();
+		$("#post1 .blogReadLess").hide();
+		$("#post1 .blogReadMore").show();
 	}
 	else {
-		$(".blogReadMore").hide();
-		$(".blogReadLess").show();
+		$("#post1 .blogReadMore").hide();
+		$("#post1 .blogReadLess").show();
 	}
 }
 
-function collapsePost () {
-	$(".expand").addClass("morePost").slideUp("fast");
+function collapsePost1 () {
+	$("#post1 .expand").addClass("morePost").slideUp("fast");
 	
-	var expandedPost = $(".expand").not("morePost");
+	var expandedPost = $("#post1 .expand").not("morePost");
 	if (expandedPost == true) {
-		$(".blogReadLess").show();
-		$(".blogReadMore").hide();
+		$("#post1 .blogReadLess").show();
+		$("#post1 .blogReadMore").hide();
 	}
 	else {
-		$(".blogReadMore").show();
-		$(".blogReadLess").hide();
+		$("#post1 .blogReadMore").show();
+		$("#post1 .blogReadLess").hide();
 	}
 }
+
+
+function expandPost2 () {
+	$("#post2 .expand").removeClass("morePost").slideDown("slow");
+	
+	var collapsedPost = $("#post2 .expand").hasClass("morePost");
+	if (collapsedPost == true) {
+		$("#post2 .blogReadLess").hide();
+		$("#post2 .blogReadMore").show();
+	}
+	else {
+		$("#post2 .blogReadMore").hide();
+		$("#post2 .blogReadLess").show();
+	}
+}
+
+function collapsePost2 () {
+	$("#post2 .expand").addClass("morePost").slideUp("fast");
+	
+	var expandedPost = $("#post2 .expand").not("morePost");
+	if (expandedPost == true) {
+		$("#post2 .blogReadLess").show();
+		$("#post2 .blogReadMore").hide();
+	}
+	else {
+		$("#post2 .blogReadMore").show();
+		$("#post2 .blogReadLess").hide();
+	}
+}
+
 
 $(".sign_up").click(launchMail);
 
