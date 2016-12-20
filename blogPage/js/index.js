@@ -3,7 +3,7 @@ $( document ).ready(function() {
   // Handler for .ready() called.
 });
 
-$("a.blogReadLess, a.blogReadMore").click(function(event){
+$("a.blogReadLess, a.blogReadMore, a#learn").click(function(event){
    event.preventDefault();
 });
 
